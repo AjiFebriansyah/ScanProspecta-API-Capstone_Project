@@ -13,6 +13,6 @@ router.get('/',authToken ,findJobController.getAllFindJob);
 router.post('/',authToken ,findJobController.createNewJob);
 
 // GET all find job
-router.get('/profile/:job_id',authToken ,findJobController.getJobById);
+router.get('/:job_id',authToken ,findJobController.getJobById);
 
 module.exports = router;
