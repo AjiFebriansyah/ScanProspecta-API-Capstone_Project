@@ -9,5 +9,6 @@ router.post('/register', authenticationController.register)
 //POST - LOGIN USER
 router.post('/login', authenticationController.login)
 
+router.get('/profile/:client_id', authenticationController.profile)
 
 module.exports = router

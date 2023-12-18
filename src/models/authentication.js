@@ -18,7 +18,15 @@ const loginUser = (body) => {
     return dbPool.query(SQLQuery, values)
 }
 
+const profileUser = (client_id) => {
+    const SQLQuery = 'SELECT * FROM client WHERE client_id=?'
+    const values = [client_id]
+
+    return dbPool.query(SQLQuery, values)
+}
+
 module.exports = {
     createNewUser,
-    loginUser
+    loginUser,
+    profileUser
 }
