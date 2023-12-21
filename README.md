@@ -11,14 +11,14 @@ The service available:
 - Authentications
   <pre>POST  /login</pre>
   <pre>POST  /register</pre>
-  <pre>GET  /profile/{client_id}</pre>
+  <pre>GET   /profile/{client_id}</pre>
 
 
 - Predict 
   <pre>POST /run/predict</pre>
 
 - Resume Example
-  <pre>GET  /eresume/</pre>
+  <pre>GET  /resume/</pre>
   <pre>GET  /resume/{resume_id}</pre>
 
 
