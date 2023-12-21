@@ -11,11 +11,11 @@ The service available:
 - Authentications
   <pre>POST  /login</pre>
   <pre>POST  /register</pre>
-  <pre>GET  /profile/</pre>
+  <pre>GET  /profile/{client_id}</pre>
 
 
 - Predict 
-  <pre>POST /crop-recommendation</pre>
+  <pre>POST /run/predict</pre>
 
 - Resume Example
   <pre>GET  /eresume/</pre>
