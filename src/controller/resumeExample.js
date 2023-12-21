@@ -6,7 +6,7 @@ const getAllResumeExample = async (req, res) => {
         const [data] = await resumeExampleModel.getAllResumeExample(); 
     
         res.json({
-            message: 'Get all find job success',
+            message: 'Get all resume example success',
             data: data
         });
     } catch (error) {
